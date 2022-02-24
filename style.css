@@ -1,0 +1,133 @@
+html {min-height: 100%;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #963;}
+a:hover {color: #C60;}
+
+body {
+	background: #CCD8E0 url(img/) repeat-x left bottom;
+	color: #444;
+
+}
+
+p,code,ul {padding-bottom: 1.2em;}
+
+li {list-style: none;}
+
+h1 {
+	font: normal 1.8em Tahoma,sans-serif;
+	margin-bottom: 4px;
+}
+
+
+h1,h2,h3 {padding-top: 6px;}
+
+/* misc */
+.clearer {clear: both;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+/* structure */
+.container {
+	background: #FFF;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+	width: 1300px;
+}
+
+
+/* title */
+
+.header {
+	background: #FFF;
+	font-size: 1.2em;
+	height: 150px;
+	margin: 0 auto;
+	padding: 10px 10px 5px;
+	width: 1300px;
+}
+.header .left, .header .right {
+	background: #A4A4A0;
+	color: #FFF;
+	height: 150px;	
+}
+.header .left {
+	background: #B3C2C7 url(img/zag.jpg) no-repeat;
+	font: normal 2.8em "Trebuchet MS",sans-serif;
+	line-height: 150px;
+	text-align: center;	
+	width: 1300px;
+}
+.header .right p,.header .right h2 {padding: 0 16px;}
+.header .right h2 {padding-top: 16px; font: normal 1.6em "Trebuchet MS",sans-serif;}
+
+/* navigation */
+.navigation {	
+	background: #D9E1E5 url(img/nav.gif);
+	border: 1px solid #DFEEF7;
+	border-color: #DFEEF7 #CFDEE7;
+	height: 41px;
+}
+.navigation a {
+	background: #D9E1E5 url(img/nav.gif);
+	border-right: 1px solid #AFBEC7;
+	color: #456;
+	display: block;
+	float: left;
+	font: bold 1.1em sans-serif;
+	line-height: 41px;
+	padding: 0 20px;
+	text-decoration: none;
+}
+.navigation a:hover {background-position: left bottom; color: #234;}
+
+
+/* content */
+.content {
+	float: left;
+	margin: 10px 0;
+	padding: 0 16px;
+	width: 1250px;
+}
+.content .descr {
+	color: #664;
+	font-size: 0.9em;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+.content p {font-family: "Lucida Sans Unicode",sans-serif;}
+
+
+
+/*footer*/
+
+.footer{
+	background: #B0C4DE;
+	color: #000000;
+	height: 20px;	
+}
+
+.col-end{
+	text-align: center;
+	font-size: 15px;
+}
+
+.zak{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#zak{
+	color: #000;
+	text-decoration: none;
+	font-size: 30px;
+}
